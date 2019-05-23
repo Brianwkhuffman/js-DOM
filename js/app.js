@@ -5,32 +5,37 @@
 Find the div with the id of "name1" and replace the n/a with the following:
 
 Tay-Tay*/
-
+var nameTay = document.getElementById('name1');
+nameTay.innerHTML = 'Tay-Tay';
+//name1.innerHTML = 'Tay-Tay'; <----shortcut way if you know the ID
 
 /*2. DJ Khaled
 
 Find the div with the id of "position2" and replace the n/a with the following: 
 
 Project Manager*/
-
+var posProject = document.getElementById('position2');
+posProject.innerHTML = 'Project Manager';
 
 /*3. Piko Taro
 
 Find the div with the id of "alias3" and replace the n/a with the following:
 
 Concatenation*/
-
+var aliasCon = document.getElementById('alias3');
+aliasCon.innerHTML = 'Concatenation';
 
 /*4. Prince
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
-
+var profileVerse = document.getElementsByClassName('profile');
+profileVerse[0].innerHTML = '1999';
 
 
 /*5. Bruce Lee
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
-
+profileVerse[1].innerHTML = 'Knowing is not enough, we must apply. Willing is not enough, we must do.';
 
 
 /*6. Samuel L Jackson
