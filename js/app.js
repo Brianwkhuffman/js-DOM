@@ -37,11 +37,11 @@ profileVerse[0].innerHTML = '1999';
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 profileVerse[1].innerHTML = 'Knowing is not enough, we must apply. Willing is not enough, we must do.';
 
-
 /*6. Samuel L Jackson
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
-
+var aliasBox = document.getElementsByClassName('alias');
+aliasBox[2].innerHTML = 'Nick Fury'
 
 
 /*7. David Ige
@@ -49,14 +49,20 @@ Find the div with the class name of "alias" and replace the n/a with your favori
 Create a div element and give it an id of "name7". Inside this div element, give it the contents of "David Ige".
 
 Append this div element to the nameParent div*/
-
+var nameDavid = document.createElement('div');
+nameDavid.id = 'name7';
+nameDavid.innerHTML = 'David Ige';
+nameParent.appendChild(nameDavid);
  
 /*8. The Dos Equis Dude
 
 Create a div element give it an id of "alias8". Inside this div element, give it the contents of "Stay Thirsty My Friends".
 
 Append this div element to the aliasParent div.*/
-
+var quoteBox = document.createElement('div');
+quoteBox.id = 'alias8';
+quoteBox.innerHTML = 'Stay Thirsty My Friends';
+aliasParent.appendChild(quoteBox);
 
 
 //Final Boss
